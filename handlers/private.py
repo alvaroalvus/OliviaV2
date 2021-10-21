@@ -35,7 +35,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("hexor") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Im Online..🎶\n🌠DRobot<3**""",
+      await message.reply_text("""**Im Online..🎶\n🌠Drobot<3**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
