@@ -40,7 +40,7 @@
 
 ## Commands 🛠
 
-- `/play <song name>` - play song you requested
+- `/play <song name>` - play song you requested (eg:- /play indila dernier danse)
 - `/song <song name>` - download songs you want quickly
 - `/hexor` - Bot Online OR Offine
 
