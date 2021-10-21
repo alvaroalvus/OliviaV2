@@ -10,7 +10,7 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-✨️This Is Advanced Telegram Music Bot\n🎶Run on private VPS Server\n🔥Feel High Quality Muzic In Vc🎶🎼\n❤Developed By[Einstein](https://t.me/alvaa_Robot)**
+✨️This Is Advanced Telegram Music Bot\n🔥Feel High Quality Muzic In Vc🎶🎼\n❤Developed By[Einstein](https://t.me/alvaa_Robot)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -35,12 +35,12 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("hexor") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝗻𝗹𝗶𝗻𝗲 𝗡𝗼𝘄\n🌠𝗛𝗲𝘅𝗼𝗿 𝗫𝗗 <3**""",
+      await message.reply_text("""**Im Online..🎶\n🌠Einstein<3**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌼𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/Prayagraj_Op")
+                        "🌻Support🌻", url="https://t.me/danger_bots")
                 ]
             ]
         )
