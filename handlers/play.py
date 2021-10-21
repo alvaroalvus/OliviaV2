@@ -192,11 +192,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs"),
+                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
+                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            url=f"https://t.me/dangerbots")
 
                     ]
                 ]
@@ -210,11 +210,11 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs"),
+                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
+                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            url=f"https://t.me/dangerbots")
 
                         ]
                     ]
