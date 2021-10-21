@@ -44,13 +44,13 @@
 - `/song <song name>` - download songs you want quickly
 - `/hexor` - Bot Online OR Offine
 
-#### Admins Only 👷‍♂️
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
+#### Admins Only👾 
+- `/pause` - pause song play🔊
+- `/resume` - resume song play🔈
+- `/skip` - play next song🎼
+- `/end` - stop music play🔇
 
-## Heroku Deployment 💜
+## Heroku Deployment💎
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/alvaroalvus/OliviaV2)
@@ -65,7 +65,7 @@ curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
 git clone https://github.com/alvaroalvus/OliviaV2 # Clone your repo.
-cd eSportMusicX
+cd Olivia
 pip3 install -U -r requirements.txt
 cp example.env .env #Use vim to edit ENVs
 vim .env #Fill up your ENVs ( Steps press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file.)
