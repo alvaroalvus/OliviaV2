@@ -10,7 +10,7 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-✨️Am Advanced Telegram Music Bot\n🔥Feel High Quality Muzic In Vc🎶🎼\n⚡️Developed By⚡️[Einstein](https://t.me/alvaa_Robot)**
+✨️Am Advanced Telegram Music Bot\n🔥Feel High Quality Muzic In Vc🎶🎼\n⚡️Developed By⚡️[TG Danger_Bots🤖](https://t.me/danger_bots)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
