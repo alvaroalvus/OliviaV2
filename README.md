@@ -74,7 +74,7 @@ python3 main.py # Run the bot
 
 ###  🔥Credits🔥
 - [Einstein Alvaro](http://t.me/alvaa_Robot): Dev✨️
-- [DangerBot](https://t.me/danger_bots) Our Bot Project🔥
+- [DangerBots](https://t.me/danger_bots) Our Bot Project🔥
 - [Olivia](https://t.me/Olivia_Music_Robot) Music Bot🎶
 
 ### ⚡️Support & Updates⚡️
