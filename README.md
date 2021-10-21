@@ -53,7 +53,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HEXOROP/eSportMusicX)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/alvaroalvus/OliviaV2)
 
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ ꜱᴇʀᴠᴇʀ 📡
 
@@ -64,7 +64,7 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/HEXOROP/eSportMusicX # Clone your repo.
+git clone https://github.com/alvaroalvus/OliviaV2 # Clone your repo.
 cd eSportMusicX
 pip3 install -U -r requirements.txt
 cp example.env .env #Use vim to edit ENVs
@@ -72,10 +72,10 @@ vim .env #Fill up your ENVs ( Steps press i to enter in insert mode then edit th
 python3 main.py # Run the bot
 ```
 
-### Special Credits 💖
-- [Hexor'xD](https://github.com/HEXOROP): Dev
-- [eSport Music Bot](https://t.me/eSport_BOTs) Our Music Bot
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
+###  🔥Credits🔥
+- [Einstein Alvaro](http://t.me/alvaa_Robot): Dev✨️
+- [DangerBot](https://t.me/danger_bots) Our Bot Project🔥
+- [Olivia](https://t.me/Olivia_Music_Robot) Music Bot🎶
 
-### Support & Updates 🎑
-<a href="https://t.me/EsportClan"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/eSport_BOTs"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+### ⚡️Support & Updates⚡️
+<a href="https://t.me/dangerbots"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/eSport_BOTs"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
