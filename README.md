@@ -1,6 +1,7 @@
-<p align="center"><a href="https://t.me/danger_bots"><img src="https://github.com/alvaroalvus/OliviaV2/raw/main/etc/Hexor.png"></a></p>
+<h2 align="centre">OLIVA V2 🎵</h2>
+
 <p align="center">
-    <br><b>Olivia Music is a telegram bot project that's allow you to play music on telegram voice chat group</b><br>
+  <img src="https://telegra.ph/file/b820b4247cb3451ddd7e9.jpg">
 </p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
