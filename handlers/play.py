@@ -220,7 +220,7 @@ async def play(_, message: Message):
                     ]
                 )
         if (dur / 60) > DURATION_LIMIT:
-             await lel.edit(f"Video🎥Longer Than{DURATION_LIMIT} Minutes aren't Allowed To Play🎶❤")
+             await lel.edit(f"Video🎥Longer Than {DURATION_LIMIT} Minutes aren't Allowed To Play🎶❤")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)     
@@ -254,7 +254,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "🌸𝗦𝗼𝗻𝗴 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱 ✌ 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗣𝗿𝗼𝗯𝗹𝗲𝗺."
+                "🎶𝗦𝗼𝗻𝗴 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱 ❌️ 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗣𝗿𝗼𝗯𝗹𝗲𝗺."
             )
             print(str(e))
             return
@@ -264,17 +264,17 @@ async def play(_, message: Message):
                     [
                       
                         InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs"),
+                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
+                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            url=f"https://t.me/dangerbots")
                     ]
                 ]
             )
         
         if (dur / 60) > DURATION_LIMIT:
-             await lel.edit(f"❰𝗩𝗶𝗱𝗲𝗼 🧿❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻  {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞")
+             await lel.edit(f"Video🎥 Longer Than {DURATION_LIMIT} Minutes aren't Allowed To Play🎶❤")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)  
