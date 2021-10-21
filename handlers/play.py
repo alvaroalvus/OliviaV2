@@ -128,7 +128,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>❰𝗠𝘂𝘀𝗶𝗰𝗫 ❘ 𝗲𝗦𝗽𝗼𝗿𝘁 🚩❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 😎🤟</i>")
+            f"<i>❰mr_MUSlCIEN❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 ✨️❤</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -137,7 +137,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❰𝗩𝗶𝗱𝗲𝗼 🧿❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞"
+                f"Video🎥 Longer than {DURATION_LIMIT} Minutes aren't Allowed To Play🎶❤"
             )
 
         file_name = get_file_name(audio)
@@ -151,11 +151,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/eSport_BOTs"),
+                            text="𝖢𝖧𝖠𝖭𝖭𝖤𝖫📡",
+                            url=f"https://t.me/danger_bots"),
                         InlineKeyboardButton(
-                            text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/EsportClan")
+                            text="𝖦𝖱𝖮𝖴𝖯🌟",
+                            url=f"https://t.me/dangerbots")
                    
                 ]
             ]
