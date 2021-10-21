@@ -41,17 +41,17 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "𝐒𝐨𝐧𝐠 🥀 𝐍𝐨𝐭 😔 𝐅𝐨𝐮𝐧𝐝."
+            "Song Not Found🚶."
         )
         print(str(e))
         return
-    m.edit("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 ✨ 𝐒𝐨𝐧𝐠 🎸 𝐅𝐫𝐨𝐦 𝐞𝐒𝐩𝐨𝐫𝐭 🥀 𝐒𝐞𝐫𝐯𝐞𝐫 🌎...")
+    m.edit("𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝚂𝚘𝚗𝚐🎶 𝙵𝚛𝚘𝚖 𝙳𝚊𝚗𝚐𝚎𝚛_𝚋𝚘𝚝 𝚂𝚎𝚛𝚟𝚎𝚛🎧🌎...")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 :- ✨ @Sanki_Owner ❤️**'
+        rep = '**🎵𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽 𝖡𝗒 :- ✨ @alvaro_Official⚡**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('𝐘𝐨𝐮𝐭𝐮𝐛𝐞  𝐄𝐫𝐫𝐨𝐫 ❌ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 🥀 @Sanki_Owner ❤️')
+        m.edit('𝖸𝗈𝗎𝗍𝗎𝖻𝖾 𝖤𝗋𝗋𝗈𝗋 ❌ 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 @danger_bots 🔥')
         print(e)
 
     try:
