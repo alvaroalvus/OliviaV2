@@ -91,7 +91,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 👌𝗤𝘂𝗮𝗹𝗶𝘁𝘆 ❤️ 𝗦𝗼𝗻𝗴 🎶🤟**")
+    lel = await message.reply("🌟 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗦𝗼𝗻𝗴🎶**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -99,7 +99,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "EsportRobot"
+        user.first_name = "Olivia_Music_Robot"
     usar = user
     wew = usar.id
     try:
@@ -111,7 +111,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝗔𝗱 𝗠𝗲 𝗔𝘀 𝗔𝗱𝗺𝗶𝗻 𝗢𝗳 𝗬𝗼𝘂𝗿 𝗚𝗿𝘂𝗼𝗽  𝗙𝗶𝗿𝘀𝘁 ❰ 𝗛𝗲𝘅𝗼𝗿 ❤️ 𝗫𝟯 𝗦𝗺𝗼𝗸𝗲𝗿 🚬 ❱</b>")
+                        "<b>Add Me As Admin Of Your Group  First🚶</b>")
                     return
 
                 try:
