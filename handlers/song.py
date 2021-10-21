@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('𝐅𝐢𝐧𝐝𝐢𝐧𝐠 💫 𝐓𝐡𝐞 𝐒𝐨𝐧𝐠 🎧 𝐅𝐫𝐨𝐦 𝐞𝐒𝐩𝐨𝐫𝐭 ❤️ 𝐒𝐞𝐫𝐯𝐞𝐫 🌎...')
+    m = message.reply('Finding..✨️🎶Danger_Bots⚡️Processing Sounds💫🎼...')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
