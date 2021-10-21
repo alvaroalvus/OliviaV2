@@ -10,23 +10,23 @@ async def start(_, message: Message):
     
     await message.reply_text(
         f"""**
-🌠𝗧𝗵𝗶𝘀 𝗜𝘀 𝗔𝗱𝘃𝗮𝗻𝗰𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 \n🌺𝗥𝘂𝗻 𝗢𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗩𝗣𝗦 𝗦𝗲𝗿𝘃𝗲𝗿 \n🌼𝗙𝗲𝗲𝗹 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰 𝗜𝗻 𝗩𝗖 \n⭐𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗱 𝗕𝘆 [𝗛𝗲𝘅𝗼𝗿](https://t.me/Its_Hexor)**
+✨️This Is Advanced Telegram Music Bot\n🎶Run on private VPS Server\n🔥Feel High Quality Muzic In Vc🎶🎼\n❤Developed By[Einstein](https://t.me/alvaa_Robot)**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❰𝗢𝘄𝗻𝗲𝗿❱", url="https://t.me/Sanki_Owner")
+                        "✨️Dev✨️", url="https://t.me/alvaa_Robot")
                   ],[
                     InlineKeyboardButton(
-                        "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱", url="https://t.me/EsportClan"
+                        "🔥Bot Project🔥", url="https://t.me/danger_bots"
                     ),
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/Prayagraj_Op"
+                        "⚡️Support⚡️", url="https://t.me/dangerbots"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❰𝗦𝗼𝘂𝗿𝗰𝗲❱", url="https://github.com/HEXOROP/eSportMusicX"
+                        "🍀Chatting Group🍀", url="https://t.me/nammude_keralam"
                     )]
             ]
         ),
