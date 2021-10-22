@@ -27,7 +27,7 @@
 
 [![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/alvaroalvus/OliviaV2)
 
-## Features 🔮
+## Features 📺
 
 - Thumbnail Support
 - Yt-dL Fix
