@@ -15,9 +15,9 @@
 
 <h3>Requirements 📝</h3>
 
-- DangerBots
+- DangerBots [©TG Danger_Bots🤖](https://t.me/danger_bots)
 - Fed Support [Team Satanz Fed](https://t.me/Team_Satanz_Fed)
-- OFFICIAL [Official](https://t.me/alvaro_official)
+- OFFICIAL [Alvaro Official](https://t.me/alvaro_official)
 
 ### 🧪 Get `SESSION_NAME` from below:
 
