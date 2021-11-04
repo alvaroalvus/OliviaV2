@@ -91,7 +91,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🌟 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗦𝗼𝗻𝗴🎶**")
+    lel = await message.reply("🌟 **𝙻𝚘𝚊𝚍 𝙱𝚎𝚜𝚝 𝚀𝚞𝚊𝚕𝚒𝚝𝚢 𝚂𝚘𝚗𝚐💞🎶**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -228,7 +228,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit("🔥**𝗪𝗵𝗮𝘁'𝘀 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 🎶 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁 𝗧𝗼 𝗣𝗹𝗮𝘆🎶💫🔊**")
-        await lel.edit("🔎 **𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚂𝚘𝚗𝚐 ❤️ ❰Einstein❱...**")
+        await lel.edit("🔎 **𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚂𝚘𝚗𝚐 ❤️ ❰@alvaa_Robot❱...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         await lel.edit("🎵 **𝙿𝚛𝚘𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚂𝚘𝚞𝚗𝚍🎶🔊**")
