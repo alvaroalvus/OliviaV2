@@ -123,12 +123,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>Something Wrong🤔 Wait Error🚶</b>\n𝗛𝗲𝘆...! 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗖𝗼𝘂𝗹𝗱𝗻'𝘁 𝗝𝗼𝗶𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗗𝘂𝗲 𝗧𝗼 𝗛𝗲𝗮𝘃𝘆 𝗝𝗼𝗶𝗻 𝗥𝗲𝗤𝘂𝗲𝘀𝘁 . 𝗠𝗮𝗸𝗲 𝗦𝘂𝗿𝗲 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗕𝗮𝗻𝗻𝗲𝗱 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 𝗹𝗮𝘁𝗲𝗿👌 :) ")
+                        f"<b>Something Wrong🤔 Wait Error🚶</b>\n𝗛𝗲𝘆...! 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 @Olivia_Music_Assistant 𝗖𝗼𝘂𝗹𝗱𝗻'𝘁 𝗝𝗼𝗶𝗻 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗗𝘂𝗲 𝗧𝗼 𝗛𝗲𝗮𝘃𝘆 𝗝𝗼𝗶𝗻 𝗥𝗲𝗤𝘂𝗲𝘀𝘁 . 𝗠𝗮𝗸𝗲 𝗦𝘂𝗿𝗲 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗕𝗮𝗻𝗻𝗲𝗱 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽 𝗔𝗻𝗱 𝗧𝗿𝘆 𝗔𝗴𝗮𝗶𝗻 𝗹𝗮𝘁𝗲𝗿👌 :) ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>❰mr_MUSlCIEN❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 ✨️❤</i>")
+            f"<i>❰@Olivia_Music_Assistant❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 @Olivia_Music_Assistant 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 ✨️❤</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -142,7 +142,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/a67094fc4a99bca08114b.jpg"
+        thumb_name = "https://telegra.ph/file/4f4265c3c11ace71fb044.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -228,10 +228,10 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit("🔥**𝗪𝗵𝗮𝘁'𝘀 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 🎶 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁 𝗧𝗼 𝗣𝗹𝗮𝘆🎶💫🔊**")
-        await lel.edit("🔎 **𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 ❤️ ❰Einstein❱...**")
+        await lel.edit("🔎 **𝙵𝚒𝚗𝚍𝚒𝚗𝚐 𝚝𝚑𝚎 𝚂𝚘𝚗𝚐 ❤️ ❰Einstein❱...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗦𝗼𝘂𝗻𝗱🎶🔊**")
+        await lel.edit("🎵 **𝙿𝚛𝚘𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚂𝚘𝚞𝚗𝚍🎶🔊**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -254,7 +254,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "🎶𝗦𝗼𝗻𝗴 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱 ❌️ 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗣𝗿𝗼𝗯𝗹𝗲𝗺."
+                "🎶𝚂𝚘𝚗𝚐 𝙽𝚘𝚝 𝙵𝚘𝚞𝚗𝚝❌𝚂𝚙𝚎𝚕𝚕𝚒𝚗𝚐 𝙿𝚛𝚘𝚋𝚕𝚎𝚖."
             )
             print(str(e))
             return
@@ -284,7 +284,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**❰♪𝙊𝙡𝙞𝙫𝙞𝙖♪🧚‍♀️  ❘ @danger_bots🔥❱ 𝗦𝗼𝗻𝗴 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 🎶✨️** {}".format(
+        caption="**❰♪𝙊𝙡𝙞𝙫𝙞𝙖♪🧚‍♀️  ❘ @danger_bots🔥❱ 𝖲𝗈𝗇𝗀 𝖯𝗈𝗌𝗌𝗂𝗍𝗂𝗈𝗇 🎶✨️** {}".format(
         position
         ),
         reply_markup=keyboard)
